@@ -1,0 +1,6 @@
+mkdir twitter-auth-example
+cd twitter-auth-example
+git init
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+pip install tweepy
